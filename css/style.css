@@ -30,7 +30,6 @@ figcaption {
 }
 
 #logo {
-	background-color: aqua;
 }
 
 #logo h1 { /* styles only <h1> if inside something with id of logo*/
@@ -58,4 +57,155 @@ font-family: "Clicker Script", cursive;
 	text-decoration: underline;
 }
 
+
+
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/*spans one third of page*/
+.col-1 {
+	float: left;
+	width: 32%;
+
+}
+
+
+/*spans two-thirds of page*/
+.col-2 {
+	float: left;
+	width: 66%;
+
+
+}
+
+
+/*spans whole of page automatically because block display*/
+
+.col-3 {
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+	background: #ccc;
+
+}
+
+.first {
+	margin-left: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height:0;
+}
+
+
+/* styling media */
+img, video, audio {
+	max-width: 100%;
+}
+
+/* styling sections */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 1;
+	width: 100%;
+}
+
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*styling social media links */
+
+#social {
+	position: fixed;
+	top: 200px;
+	right: 20px;
+	width: 40px;
+	z-index: 1;
+}
+
+#social a {
+	display: block;
+	width: 40px;
+	height: px;
+	background: yellow;
+}
+/*
+
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #eee;
+}
+
+
+
+.col-1 {
+	float: left;
+	width: 32%;
+	background: #ccc;
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+	background: #ccc;
+}
+
+.col-3 {
+	background: #ccc;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+img, video, audio {
+	max-width: 100%;
+}
+
+*/
 
